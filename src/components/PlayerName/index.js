@@ -3,7 +3,7 @@ import './style.css';
 
 function PlayerName(content){
     return `
-        <p class="texts-player">${content}</p>
+        <p class="player-name">${content}</p>
     `
 }
 
