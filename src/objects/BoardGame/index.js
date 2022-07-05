@@ -1,10 +1,10 @@
-import CardFlip from "../../components/CardFlip"
+import CardGame from "../../components/CardGame"
 import './style.css'
 
 function BoardGame(amountCards) {
-    const $htmlCardGame = CardFlip();
+    const $htmlCardGame = CardGame();
     const $htmlContent = $htmlCardGame.repeat(amountCards);
-    return `
+    return /*html*/`
         <section class="board-game">
             ${$htmlContent}
         </section>`;
